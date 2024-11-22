@@ -1,0 +1,25 @@
+Program to search in data structure
+
+#include <stdio.h>
+#include<conio.h>
+ void main() {
+ int array [100], i, j, n, value; 
+ Printf Center size of array"); 
+ scanf ("%d", &n);
+ Printf ("enter elements"); 
+ for (i=0; in; i++)
+}
+scanf("%d", &array[i]);
+}
+ Printf ("enter the value to be scearching"); 
+ Scanf("%d", &value);
+ for(i=0;i<=n;i++) 
+{
+if (array[i]== value) 
+   Printf ("value found at %d", i); 
+ else
+  Printf ("value did not found");
+}
+getch();
+Clrscr();
+}

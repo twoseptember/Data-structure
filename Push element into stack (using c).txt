@@ -1,0 +1,29 @@
+Program to push element into stack (using c)
+
+#include <stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+
+#define MAX_size 100
+
+ int stack[MAX_SIZE];
+ int top=-1;
+
+ void pust (int element){
+     if (top> = MAX_SIZE -1){
+      printf("stack overflow \n");
+
+  return;
+ }
+ stack [++top]=element;
+ printf("%d pushed to stack \n", element);
+}
+
+int main(){
+ clrscr();
+  push(10);
+  push(20);
+  push(30);
+  getch();
+  return 0;
+}

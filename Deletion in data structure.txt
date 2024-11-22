@@ -1,0 +1,31 @@
+Program t o Deletion in data structure
+
+#indude <stdio.h>
+#include <conio.h>
+ int main(){
+   int n, i, Position
+   int array [100];
+   Printf("Enter size:");
+   Scanf("%d", &n);
+   for (i=0;in;i++) {
+         Printf("Enter element %d", i++);
+         scanf("%d",&array [i]);
+}
+Printf("Enter Position "%d ",n);
+scanf("%d", & position);
+if position Position = n) {
+    Printf ("invalid Position!\n");
+} else {
+  for (i= Position-1; i<n-1; i++) {
+     array [i] = array [i+1];
+}
+n--;
+Printf ("Array after deletation:");
+for (i=0; i<n; i++) {
+   Printf("%d", array[i]);
+}
+
+Printf ("\n");
+getch();
+return 0;
+}
