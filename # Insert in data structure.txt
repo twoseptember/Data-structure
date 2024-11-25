@@ -10,7 +10,8 @@ int main () {
    Printf("Enter number: ");
    scanf("%d", & a[i]);
   }
-for (i=0; i<10; i++) (
+
+for (i=0; i<10; i++) {
   Printf("In Element %d", i+1, a[i]);
 }
  getch();
