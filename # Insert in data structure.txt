@@ -2,6 +2,7 @@ Program to insert in data structure
 
 #include <stdio.h>
 #include<conio.h>
+
 int main () {
    int a[10];i;
    clrscr();
