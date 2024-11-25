@@ -3,15 +3,18 @@ Program to insert in data structure
 #include <stdio.h>
 #include<conio.h>
 
-int main () {
+int main () 
+{
    int a[10];i;
    clrscr();
-   for (i=0;i<10;i++) {
+   for (i=0;i<10;i++) 
+  {
    Printf("Enter number: ");
    scanf("%d", & a[i]);
   }
 
-for (i=0; i<10; i++) {
+  for (i=0; i<10; i++) 
+{
   Printf("In Element %d", i+1, a[i]);
 }
  getch();
