@@ -1,4 +1,4 @@
-Program t o Deletion in data structure
+Program to Deletion in data structure
 
 #indude <stdio.h>
 #include <conio.h>
