@@ -3,25 +3,39 @@ C program to create a Linked list
 #include <stdio.h>
 #include<stdlib.h>
 #include<conio.h>
-type struct Node{
-int data;
+
+typedef struct Node{
+
+   int data;
+
 struct Node*next;
+
 } Node;
+
 int main() {
-Node*first (Node*)malloc(sizeof (Node));
-first -> data = 10;
-Node*second = (Node*)malloc(size of (Node));
-Second-> data = 20;
-Node*third = (Node*) malloc (sizeof (Node));
-third ->data=30;
-first ->next = second;
-Second ->next third;
-third->next = NULL;
-Printf ("linked list :'); 
-Node*temp = first;
-while (temp) {
-Printf("%d", temp->data);
-temp = temp->next;
+
+    Node*first (Node*)malloc(sizeof (Node));
+
+    first -> data = 10;
+
+    Node*second = (Node*)malloc(size of (Node));
+
+    Second-> data = 20;
+
+    Node*third = (Node*) malloc (sizeof (Node));
+
+    third ->data=30;
+
+    first ->next = second;
+    Second ->next third;
+    third->next = NULL;
+
+    Printf ("linked list :'); 
+    Node*temp = first;
+       while (temp) {
+     Printf("%d", temp->data);
+     temp = temp->next;
+}
 getch();
 Clrscr(); 
 return 0;
